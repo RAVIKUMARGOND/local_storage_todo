@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #008080;
+    height: 4rem;
+    width: 100%;
+}
+nav a{
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-style: italic;
+}
+nav a:nth-child(1){
+    position: absolute;
+    left: 20rem;
+    top: 1.1rem;
+}
+nav a:nth-child(2){
+    position: absolute;
+    right: 20rem;
+    top: 1.1rem;
+}
+main{
+    background-color: #AACDDF;
+    width: 100%;
+    height: 33.5rem;
+}
+#form{
+    height: 20rem;
+    width: 26rem;
+    background-color: #B0D5DF;
+    border-radius: 0.4rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    border: 0.5px solid white;
+}
+#text{
+    height:2rem;
+    width: 11rem;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    border-radius: 5px;
+}
+#select{
+    height:2.1rem;
+    width: 6rem;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#submit{
+    height: 2rem;
+    background-color: green;
+    color: whitesmoke;
+    width: 15rem;
+    border: none;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+#submit:hover{
+    cursor: pointer;
+    scale: 1;
+}
+section{
+    display: flex;
+}
+table,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+thead{
+    background-color: green;
+    color: white;
+}
+tr button{
+    border: none;
+    font-size: 10px;
+    padding: 5px;
+}
+#container{
+    position: absolute;
+    top: 8rem;
+    right: 10rem;
+}
+#archive{
+    background-color: red;
+    color: white;
+}
+#archive:hover{
+    cursor: pointer;
+}
